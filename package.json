@@ -1,0 +1,12 @@
+{
+  "name": "shop",
+  "version": "0.0.0",
+  "main": "app/src/index.js",
+  "license": "ISC",
+  "description": "Mobile shop, an implementation of the MEAN tutorial project.",
+  "author": "octocrux",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/octocrux/mean-shop.git"
+  }
+}

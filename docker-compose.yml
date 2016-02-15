@@ -1,0 +1,18 @@
+db:
+  image: mongo
+  ports:
+    - "27017:27017"
+
+dev:
+  build: .
+  dockerfile: Dockerfile-dev
+  volumes:
+    - ./app:/usr/src/app
+  links:
+    - db
+  ports:
+    # "host:container"
+    - "8080:8080"
+  command: /bin/bash
+  stdin_open: true
+  tty: true

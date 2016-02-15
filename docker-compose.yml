@@ -6,6 +6,8 @@ db:
 dev:
   build: .
   dockerfile: Dockerfile-dev
+  env_file:
+    - .env
   volumes:
     - ./app:/usr/src/app
   links:

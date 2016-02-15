@@ -8,5 +8,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/octocrux/mean-shop.git"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5"
   }
 }
